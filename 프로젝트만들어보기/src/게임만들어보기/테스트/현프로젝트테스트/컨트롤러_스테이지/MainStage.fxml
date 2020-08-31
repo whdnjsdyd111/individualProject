@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="게임만들어보기.테스트.현프로젝트테스트.컨트롤러_스테이지.MainController">
+   <children>
+   <AnchorPane prefHeight="600.0" prefWidth="900.0">
+      <children>
+         <Pane layoutX="766.0" layoutY="371.0" prefHeight="60.0" prefWidth="60.0" fx:id="OptionBtn">
+            <children>
+               <ImageView  fitHeight="40.0" fitWidth="35.0" layoutX="13.0" layoutY="10.0">
+                  <image>
+                     <Image url="@../이미지바인드/버튼이미지/option.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+         <Pane layoutX="756.0" layoutY="324.0" prefHeight="40.0" prefWidth="80.0" fx:id="TutorialBtn">
+            <children>
+               <ImageView  fitHeight="30.0" fitWidth="80.0" layoutX="3.0" layoutY="6.0">
+                  <image>
+                     <Image url="@../이미지바인드/버튼이미지/Tutorial.png" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+            <Pane layoutX="325.0" layoutY="449.0" prefHeight="75.0" prefWidth="250.0" fx:id="CreditBtn">
+               <children>
+               <ImageView  fitHeight="75.0" fitWidth="250.0">
+                  <image>
+                     <Image url="@../이미지바인드/버튼이미지/Credit.png" />
+                  </image>
+               </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="325.0" layoutY="301.0" prefHeight="75.0" prefWidth="250.0" fx:id="StartBtn">
+               <children>
+               <ImageView  fitHeight="75.0" fitWidth="250.0">
+                  <image>
+                     <Image url="@../이미지바인드/버튼이미지/Start.png" />
+                  </image>
+               </ImageView>
+               </children>
+            </Pane>
+      </children>
+   </AnchorPane>
+   </children>
+</StackPane>

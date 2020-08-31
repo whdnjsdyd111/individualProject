@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="AP" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="게임만들어보기.로그라이크.TutorialController">
+   <children>
+      <Circle fx:id="player" fill="DODGERBLUE" layoutX="63.0" layoutY="300.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label fx:id="back" layoutX="830.0" text="←">
+         <font>
+            <Font size="65.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
