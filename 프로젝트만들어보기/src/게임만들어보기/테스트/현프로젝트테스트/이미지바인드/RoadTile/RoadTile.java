@@ -11,4 +11,12 @@ public class RoadTile extends ImageView{
 		super.setFitHeight(area);
 		super.setFitWidth(area);
 	}
+	
+	public RoadTile(int area, String fog) {
+		Image image = new Image(getClass().getResource("RoadFogTile" + (int)(Math.random() * 4 + 1) +  ".png").toString());
+		// Image image = new Image(getClass().getResource("도로 타일.jpg").toString());
+		super.setImage(image);
+		super.setFitHeight(area);
+		super.setFitWidth(area);
+	}
 }

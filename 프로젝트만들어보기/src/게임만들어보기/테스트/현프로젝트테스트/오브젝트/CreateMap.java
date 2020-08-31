@@ -81,7 +81,7 @@ public class CreateMap {
 			for (int j = 0; j <= WTile; j++) {
 				if(i == 0 || i == HTile - 1 || j == 0 || j == WTile - 1) {
 					Rectangle rect = new Rectangle();
-					RoadTile rt = new RoadTile(area);
+					RoadTile rt = new RoadTile(area, "¾È°³");
 					rect.setWidth(area);
 					rect.setHeight(area);
 					rect.setFill(Color.WHITE);
